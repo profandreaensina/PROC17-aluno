@@ -126,14 +126,11 @@ function gerarNuvens() {
     nuvem.scale = 0.5;
     nuvem.velocityX = -3;
     
-     //atribua tempo de vida à variável
     nuvem.lifetime = 200;
     
-    //ajuste a profundidade (depth)
     nuvem.depth = trex.depth;
     trex.depth = trex.depth + 1;
     
-    //adicione cada nuvem ao grupo
     grupoNuvens.add(nuvem);
   }
   
